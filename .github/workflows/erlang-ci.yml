@@ -31,6 +31,9 @@ jobs:
     - name: Compile
       run: rebar3 compile
 
+    - name: Compile (Rebar2)
+      run: rebar compile
+
     - name: eunit tests
       run: rebar3 eunit -c
 
